@@ -14,14 +14,14 @@ pipeline {
                     emailext (
                         subject: "Build Successful",
                         body: "The Build stage completed successfully.",
-                        to: "your_email@example.com"
+                        to: "junayedalam.au@gmail.com"
                     )
                 }
                 failure {
                     emailext (
                         subject: "Build Failed",
                         body: "The Build stage failed.",
-                        to: "your_email@example.com"
+                        to: "junayedalam.au@gmail.com"
                     )
                 }
             }
@@ -39,14 +39,14 @@ pipeline {
                     emailext (
                         subject: "Unit and Integration Tests Successful",
                         body: "The Unit and Integration Tests stage completed successfully.",
-                        to: "your_email@example.com"
+                        to: "junayedalam.au@gmail.com"
                     )
                 }
                 failure {
                     emailext (
                         subject: "Unit and Integration Tests Failed",
                         body: "The Unit and Integration Tests stage failed.",
-                        to: "your_email@example.com"
+                        to: "junayedalam.au@gmail.com"
                     )
                 }
             }
@@ -63,14 +63,14 @@ pipeline {
                     emailext (
                         subject: "Code Analysis Successful",
                         body: "The Code Analysis stage completed successfully.",
-                        to: "your_email@example.com"
+                        to: "junayedalam.au@gmail.com"
                     )
                 }
                 failure {
                     emailext (
                         subject: "Code Analysis Failed",
                         body: "The Code Analysis stage failed.",
-                        to: "your_email@example.com"
+                        to: "junayedalam.au@gmail.com"
                     )
                 }
             }
@@ -87,14 +87,14 @@ pipeline {
                     emailext (
                         subject: "Security Scan Successful",
                         body: "The Security Scan stage completed successfully.",
-                        to: "your_email@example.com"
+                        to: "junayedalam.au@gmail.com"
                     )
                 }
                 failure {
                     emailext (
                         subject: "Security Scan Failed",
                         body: "The Security Scan stage failed.",
-                        to: "your_email@example.com"
+                        to: "junayedalam.au@gmail.com"
                     )
                 }
             }
@@ -111,14 +111,14 @@ pipeline {
                     emailext (
                         subject: "Deploy to Staging Successful",
                         body: "The Deploy to Staging stage completed successfully.",
-                        to: "your_email@example.com"
+                        to: "junayedalam.au@gmail.com"
                     )
                 }
                 failure {
                     emailext (
                         subject: "Deploy to Staging Failed",
                         body: "The Deploy to Staging stage failed.",
-                        to: "your_email@example.com"
+                        to: "junayedalam.au@gmail.com"
                     )
                 }
             }
@@ -135,14 +135,14 @@ pipeline {
                     emailext (
                         subject: "Integration Tests on Staging Successful",
                         body: "The Integration Tests on Staging stage completed successfully.",
-                        to: "your_email@example.com"
+                        to: "junayedalam.au@gmail.com"
                     )
                 }
                 failure {
                     emailext (
                         subject: "Integration Tests on Staging Failed",
                         body: "The Integration Tests on Staging stage failed.",
-                        to: "your_email@example.com"
+                        to: "junayedalam.au@gmail.com"
                     )
                 }
             }
@@ -159,14 +159,14 @@ pipeline {
                     emailext (
                         subject: "Deploy to Production Successful",
                         body: "The Deploy to Production stage completed successfully.",
-                        to: "your_email@example.com"
+                        to: "junayedalam.au@gmail.com"
                     )
                 }
                 failure {
                     emailext (
                         subject: "Deploy to Production Failed",
                         body: "The Deploy to Production stage failed.",
-                        to: "your_email@example.com"
+                        to: "junayedalam.au@gmail.com"
                     )
                 }
             }
